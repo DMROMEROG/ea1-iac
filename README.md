@@ -436,3 +436,10 @@ Para evitar el consumo no deseado de créditos en AWS Academy:
 ```bash
 terraform destroy -auto-approve
 ```
+
+
+## Entrega final
+
+- Estructura del proyecto organizada en environment, doc y Evidence.
+- Documentación actualizada en README.
+- Infraestructura Terraform lista para despliegue en AWS Academy.
