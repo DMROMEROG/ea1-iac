@@ -2,7 +2,6 @@
 
 ## Información General
 
-<<<<<<< HEAD
 - Asignatura: Infraestructura como Código I (AUY1103)
 - Tiempo asignado: 5 horas pedagógicas
 - Ponderación: 20%
@@ -219,30 +218,11 @@ Se recomienda guardar en `Evidence/`:
 - Capturas de acceso a la base de datos
 - Evidencia de visualización del bucket S3
 - Documentación adicional necesaria para la entrega
-=======
-* **Asignatura:** Infraestructura como Código I (AUY1103)
-* **Tiempo Asignado:** 5 Horas pedagógicas
-* **Ponderación:** 20%
-* **Modalidad:** Ejecución práctica / Entrega de encargo (Individual)
-* **Lugar:** Laboratorio TAITE 09
-
----
-
-## Descripción General
-
-En esta evaluación, el estudiante debe llevar a cabo la implementación básica de un proyecto utilizando **Terraform** en **AWS** y entregar las evidencias correspondientes a la ejecución.
-
-El objetivo es desplegar una arquitectura básica para un **servicio LAMP** compuesto por tres componentes principales:
-1. **S3 Bucket:** Para el almacenamiento de imágenes y contenido estático.
-2. **Servidor Web (EC2):** Servidor de presentación con Apache.
-3. **Base de Datos (RDS MySQL):** Base de datos que alimenta la aplicación.
->>>>>>> b136a6e31dac2b4337b020f14bde2f0a6ea8395f
 
 ---
 
 ## Indicadores de Logro Evaluados
 
-<<<<<<< HEAD
 - IL2.1: Uso de comandos clave de Terraform para gestionar el ciclo de vida de la infraestructura.
 - IL2.3: Uso de backends y validación del estado de la infraestructura para mantener consistencia.
 
@@ -276,12 +256,6 @@ Este proyecto está orientado a una práctica académica y a AWS Academy. Sin em
 ## Conclusión
 
 Este repositorio demuestra la creación de una infraestructura básica en AWS utilizando Terraform, enfocada en un escenario LAMP con EC2, RDS y S3. El objetivo principal es evidenciar el uso de IaC como práctica de automatización, validación y entrega de infraestructura cloud.
-
-=======
-* **IL2.1:** Utiliza comandos clave de Terraform para gestionar la infraestructura y controlar el ciclo de vida completo de esta.
-* **IL2.3:** Utiliza los backends de Terraform para asegurar la integridad y consistencia de la infraestructura, corrigiendo cualquier discrepancia que pueda detectarse en comparación al estado actual de la infraestructura.
-
----
 
 ## Instrucciones Específicas
 
@@ -414,25 +388,6 @@ Cree los siguientes archivos dentro de la carpeta:
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
-}
-
-provider "aws" {
-  region = "us-east-1"
-}
-```
-
----
-
-### 2. `network.tf` (Uso de VPC por defecto para AWS Academy)
-```hcl
-# Obtener la VPC por defecto asignada en el Learner Lab
-data "aws_vpc" "default" {
-  default = true
 }
 
 # Obtener las subredes de la VPC por defecto
@@ -660,4 +615,3 @@ Para evitar el consumo no deseado de créditos en AWS Academy:
 ```bash
 terraform destroy -auto-approve
 ```
->>>>>>> b136a6e31dac2b4337b020f14bde2f0a6ea8395f
