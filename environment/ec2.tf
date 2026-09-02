@@ -23,8 +23,8 @@ resource "aws_instance" "web_server" {
               systemctl start httpd
               systemctl enable httpd
               echo "<h1>Evaluacion Parcial N1 - Infraestructura como Codigo</h1>" > /var/www/html/index.html
-              echo "<p><strong>Estudiante:</strong> Juan Perez</p>" >> /var/www/html/index.html
-              echo "<p><strong>RUT:</strong> 12.345.678-9</p>" >> /var/www/html/index.html
+              echo "<p><strong>Estudiante:</strong> Danilo Romero</p>" >> /var/www/html/index.html
+              echo "<p><strong>RUT:</strong> 17.327.739-3</p>" >> /var/www/html/index.html
               EOF
 
   tags = {
