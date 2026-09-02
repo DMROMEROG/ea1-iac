@@ -1,0 +1,47 @@
+```
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+
+# Build artifacts
+dist/
+build/
+target/
+coverage/
+htmlcov/
+*.pyc
+*.class
+*.o
+*.obj
+*.out
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
