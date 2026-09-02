@@ -624,17 +624,13 @@ Las capturas deben almacenarse en la carpeta `/evidence`. Cada nombre de la tabl
 
 | Nombre de la captura | Detalle |
 | :--- | :--- |
-| [01_inicio_aws_academy.png](evidence/01_inicio_aws_academy.png) | Learner Lab iniciado y estado de AWS activo. |
-| [02_credenciales_aws_academy.png](evidence/02_credenciales_aws_academy.png) | Sección `AWS Details` con las credenciales ocultas o protegidas. |
-| [03_terraform_init.png](evidence/03_terraform_init.png) | Inicialización correcta del backend y del proveedor AWS. |
-| [04_terraform_validate.png](evidence/04_terraform_validate.png) | Configuración Terraform validada correctamente. |
-| [05_terraform_plan.png](evidence/05_terraform_plan.png) | Plan con los recursos que serán creados. |
-| [06_terraform_apply.png](evidence/06_terraform_apply.png) | Creación exitosa de EC2, RDS, S3 y grupo de seguridad. |
-| [07_terraform_outputs.png](evidence/07_terraform_outputs.png) | IP pública, URL web, endpoint RDS y nombre del bucket. |
-| [08_sitio_web_ec2.png](evidence/08_sitio_web_ec2.png) | Sitio web funcionando y mostrando el nombre y RUT del estudiante. |
-| [09_conexion_rds_mysql.png](evidence/09_conexion_rds_mysql.png) | Conexión exitosa a MySQL desde un cliente externo. |
-| [10_bucket_s3_imagen.png](evidence/10_bucket_s3_imagen.png) | Imagen cargada en S3 y visualizada mediante una URL pública. |
-| [11_terraform_state.png](evidence/11_terraform_state.png) | Recursos registrados mediante `terraform state list` o revisión del estado. |
-| [12_terraform_destroy.png](evidence/12_terraform_destroy.png) | Eliminación correcta de los recursos, si corresponde. |
+| [01_terraform_plan.png](evidence/01_terraform_plan.png) | Plan con los recursos que serán creados. |
+| [02_terraform_apply.png](evidence/02_terraform_apply.png) | Creación exitosa de EC2, RDS, S3 y grupo de seguridad. |
+| [03_terraform_outputs.png](evidence/03_terraform_outputs.png) | IP pública, URL web, endpoint RDS y nombre del bucket. |
+| [04_sitio_web_ec2.png](evidence/04_sitio_web_ec2.png) | Sitio web funcionando y mostrando el nombre y RUT del estudiante. |
+| [05_conexion_rds_mysql.png](evidence/05_conexion_rds_mysql.png) | Conexión exitosa a MySQL desde un cliente externo. |
+| [06_bucket_s3_imagen.png](evidence/06_bucket_s3_imagen.png) | Imagen cargada en S3 y visualizada mediante una URL pública. |
+| [07_terraform_state.png](evidence/07_terraform_state.png) | Recursos registrados mediante `terraform state list` o revisión del estado. |
+| [08_terraform_destroy.png](evidence/08_terraform_destroy.png) | Eliminación correcta de los recursos, si corresponde. |
 
 No se deben capturar ni publicar claves secretas, contraseñas o tokens completos.
