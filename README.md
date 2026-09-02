@@ -436,3 +436,9 @@ Para evitar el consumo no deseado de créditos en AWS Academy:
 ```bash
 terraform destroy -auto-approve
 ```
+
+
+## Ajuste de estructura
+
+- Se separan archivos de infraestructura, documentación y evidencias.
+- La estructura del proyecto queda lista para uso académico.
